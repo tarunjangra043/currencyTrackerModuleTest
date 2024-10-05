@@ -1,0 +1,71 @@
+body {
+  background-color: #181818;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background-color: #222;
+  color: #bbb;
+}
+
+td img {
+  width: 30px;
+  height: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  width: 300px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.price-up {
+  color: #4caf50;
+}
+
+.price-down {
+  color: #f44336;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #444;
+}
+
+button:hover {
+  background-color: #555;
+}
